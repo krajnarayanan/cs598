@@ -1,0 +1,11 @@
+version: '3'
+services:
+        notebook:
+                image: python_notebook:latest
+                container_name: python_notebook
+                ports:
+                        - "8887:8887"
+                volumes:
+                        - ~/projects/ai/notebooks:/home/notebooks
+                        - ~/projects/ai/data:/home/data
+                build: .
