@@ -2,3 +2,4 @@ mapboxgl
 seaborn
 timestring
 notebook
+Pillow
