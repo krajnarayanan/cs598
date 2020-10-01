@@ -6,6 +6,6 @@ services:
                 ports:
                         - "8887:8887"
                 volumes:
-                        - ~/projects/ai/notebooks:/home/notebooks
-                        - ~/projects/ai/data:/home/data
+                        - ./notebooks:/home/notebooks
+                        - ./data:/home/data
                 build: .

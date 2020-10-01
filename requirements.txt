@@ -3,3 +3,4 @@ seaborn
 timestring
 notebook
 Pillow
+tensorflow
